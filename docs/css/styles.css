@@ -1,0 +1,53 @@
+body {
+    overflow:scroll;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+#top {
+    height: 135px;
+    line-height: 135px;
+}
+
+#logo {
+    height: 135px;
+}
+
+#sideCard {
+    padding:18px;
+}
+
+.grBig {
+    width: 600px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.alignRight {
+    text-align: right;
+}
+.wrapperPaddingRight {
+    padding-right: 31px;
+}
+.clearMargin {
+    margin: 0px;
+}
+
+.clearPadding {
+    padding: 0px;
+}
+
+.clearFix {
+    clear: both;
+}
+.displayInline {
+    display: inline;
+}
