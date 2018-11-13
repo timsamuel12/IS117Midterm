@@ -4,41 +4,85 @@ body {
 
 #wrapper {
     width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 #top {
     height: 135px;
-    line-height: 135px;
+    line-height: 0;
+}
+#menu {
+    width: 545px;
+    text-align: right;
+    margin-top: 0;
 }
 
 #logo {
-    height: 135px;
+    width: 329px;
 }
-
+#HomeBackground {
+    background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
+    height: 300px;
+    width: 958px;
+    margin-right: 40px;
+    position: absolute;
+}
 #sideCard {
-    padding:18px;
+    padding:25px;
 }
+#footer {
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    height: 120px;
+    color: white;
+}
+#header {
+    text-align: center;
+    width: 200px;
+    border-style: solid;
+    padding: 1px;
+    margin-right: 200px;
+    line-height: 1px;
+    margin-bottom: 200px;
 
-.grBig {
-    width: 600px;
+}
+#boardwalk {
+    width: 290px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    align-content: center;
+}
+#ContentHeader {
+    width: 545px;
 }
 
 .floatLeft {
     float: left;
 }
-
+.clear {
+    clear: both;
+}
 .textRight {
     text-align: right;
+    padding-right: 10px;
 }
 
 .alignRight {
     text-align: right;
 }
-.wrapperPaddingRight {
-    padding-right: 31px;
-}
 .clearMargin {
     margin: 0px;
+}
+.marginRightMenu {
+    margin: 30px;
+}
+.marginRight {
+    margin: 20px;
 }
 
 .clearPadding {
@@ -50,4 +94,28 @@ body {
 }
 .displayInline {
     display: inline;
+}
+.clear {
+    clear: both;
+}
+
+div {
+    display: block;
+}
+.inLine {
+    display: inline;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+.spacing {
+    word-spacing: 40px;
+}
+.indent {
+    padding-left: 30px;
 }
