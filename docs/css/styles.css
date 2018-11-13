@@ -20,12 +20,11 @@ body {
 #logo {
     width: 329px;
 }
-#HomeBackground {
-    background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
-    height: 300px;
-    width: 958px;
-    margin-right: 40px;
-    position: absolute;
+#adventure {
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
 }
 #sideCard {
     padding:25px;
@@ -61,6 +60,11 @@ body {
     width: 545px;
 }
 
+.middle-left {
+    position: absolute;
+    left: 55px;
+    top: 200px;
+}
 .floatLeft {
     float: left;
 }
