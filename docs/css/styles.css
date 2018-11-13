@@ -25,6 +25,7 @@ body {
     text-align: center;
     font-size: xx-large;
     font-family: "Helvetica Neue";
+    opacity: 0.7;
     color: white;
 }
 #sideCard {
