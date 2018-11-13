@@ -24,6 +24,7 @@ body {
     position: relative;
     text-align: center;
     font-size: xx-large;
+    font-family: "Helvetica Neue";
     color: white;
 }
 #sideCard {
@@ -63,7 +64,15 @@ body {
 .middle-left {
     position: absolute;
     left: 55px;
-    top: 200px;
+    top: 180px;
+}
+.middle-right {
+    position: absolute;
+    left: 300px;
+    top: 240px;
+    font-weight: bold;
+    color: blue;
+    font-size: x-large;
 }
 .floatLeft {
     float: left;
